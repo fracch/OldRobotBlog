@@ -102,7 +102,9 @@
 .margin-top-15 {
 	margin-top: 15px;
 }
-
+.no-margin {
+	margin: 0;
+}
 /* Footer Style */
 
 .footer {
@@ -110,6 +112,7 @@
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
+	border-radius: 25px;
 }
 
 .footer a
@@ -126,6 +129,7 @@
 .blog-post {
 	color: #ffffff;
 	background-color: #222222;
+	border-radius: 25px;
 }
 
 * Sidebar modules for boxing content */
@@ -157,5 +161,17 @@
 	text-decoration: none;
 }
 
+/*about Old Robot image carosel & text block */
+.employeeCarousel {
+	margin-left : 5%;
+	color:#ffffff;
+}
+.companyInfo {
+		color:#ffffff;
+		background-color: #222222;
+}
 
-
+/*rounded corners */
+.rounded {
+	border-radius: 25px;
+}
